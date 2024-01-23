@@ -5,14 +5,14 @@
       "matches": [ "https://*.youtube.com/watch?*" ],
       "run_at": "document_start"
    } ],
-   "description": "Speed-up video ads without adding elements to the page. Skip ads with minimal impact to your browsing experience.",
+   "description": "Speed-up video ads without adding elements to the page. Fast Forward through ads with minimal impact to your browsing experience.",
    "icons": {
       "128": "icons/icon128.png",
       "16": "icons/icon16.png",
       "32": "icons/icon32.png"
    },
    "manifest_version": 3,
-   "name": "Ad Speedup Lite - Less Intrusive Ad Skipping",
+   "name": "Ad Speedup Lite - Lightweight Fast Forwarding",
    "short_name": "Ad Speedup Lite",
-   "version": "1.0.0"
+   "version": "1.0.1"
 }
