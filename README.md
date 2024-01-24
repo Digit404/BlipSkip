@@ -20,4 +20,4 @@ Ad Speedup Lite operates by detecting when an advertisement is playing in a YouT
 Privacy is important. Ad Speedup Lite does not collect or store any personal information. 
 
 ## Support
-For support, feedback, or inquiries, please contact me at [digit@bitwise.com](mailto:digit@bitwise.com).
+For support, feedback, or inquiries, please contact me at [digit@bitwise.live](mailto:digit@bitwise.live).
