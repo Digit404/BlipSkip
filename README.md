@@ -4,6 +4,7 @@
 Ad Speedup Lite is a lightweight and unobtrusive browser extension crafted to significantly enhance your online video viewing experience. Specifically designed for YouTube, this extension efficiently speeds up video advertisements, allowing you to enjoy your content with minimal interruption.
 
 ## Features
+- **Circumvents Ad Blocking Restrictions**: By speeding up ads instead of blocking them, Ad Speedup Lite complies with YouTube's policies, effectively reducing your ad viewing time without using traditional ad-blocking methods.
 - **Speed-Up Video Ads**: Automatically increases the playback speed of advertisements in YouTube videos, significantly reducing the time you spend watching ads.
 - **Minimal Page Impact**: Operates seamlessly without adding any additional elements to the page, ensuring your browsing experience remains clean and uncluttered.
 - **Lightweight Design**: Crafted to be lightweight, ensuring it doesn’t slow down your browser or impact the performance of your device.
