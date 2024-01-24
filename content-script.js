@@ -24,6 +24,27 @@ function handleAdStateChange(videoPlayer) {
     }
 }
 
+// Function to skip ad if possible
+function trySkipAd() {
+    const adSkipButtonContainer = document.querySelector('.ytp-ad-skip-button-container');
+    
+    if (adSkipButtonContainer?.style.display !== 'none') {
+        const skipButton = adSkipButtonContainer.querySelector('.ytp-ad-skip-button-modern');
+        if (skipButton) {
+            skipButton.click();
+        }
+    }
+}
+
+// Function to process each mutation
+function processMutation(mutation) {
+    if (mutation.attributeName === "style") {
+        trySkipAd();
+    }
+    
+    handleAdStateChange(mutation.target);
+}
+
 // Function to initialize the ad observer
 function initializeAdObserver() {
     const videoPlayer = document.querySelector("#movie_player");
@@ -32,12 +53,15 @@ function initializeAdObserver() {
         handleAdStateChange(videoPlayer);
 
         const observer = new MutationObserver((mutations) => {
-            mutations.forEach((mutation) =>
-                handleAdStateChange(mutation.target)
-            );
+            mutations.forEach(processMutation);
         });
 
-        const config = { attributes: true, attributeFilter: ["class"] };
+        const config = {
+            attributes: true,
+            subtree: true,
+            attributeFilter: ["class", 'style'],
+        };
+
         observer.observe(videoPlayer, config);
     } else {
         setTimeout(initializeAdObserver, 50);
