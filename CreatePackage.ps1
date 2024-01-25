@@ -8,4 +8,4 @@ $files = (
     ".\icons\"
 )
 
-Compress-Archive -Path $files -DestinationPath ($Firefox ? "AdSpeedup-Firefox.zip" : "AdSpeedup.zip") -Force
+Compress-Archive -Path $files -DestinationPath ($Firefox ? "BlipSkip-Firefox.zip" : "BlipSkip.zip") -Force
