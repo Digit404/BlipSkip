@@ -11,8 +11,8 @@ BlipSkip is a lightweight and unobtrusive browser extension crafted to significa
 - **Automatically Skips Ads**: Detects when ads are skippable and automatically clicks the skip button when available.
 
 ## Installation
-1. Visit the [Chrome Web Store](https://chromewebstore.google.com/u/1/detail/ad-speedup-lite-lightweig/bfihooeagoinnndfehldcbfhcdgkdlie)
-2. Click "Add to Chrome" to install the extension.
+1. Visit the [Chrome Web Store](https://chromewebstore.google.com/u/1/detail/ad-speedup-lite-lightweig/bfihooeagoinnndfehldcbfhcdgkdlie) or [Firefox Add-ons Page](https://addons.mozilla.org/en-US/firefox/addon/blipskip/).
+2. Install the extension.
 3. Once installed, the extension will begin working automatically on YouTube videos.
 
 ## How it Works
